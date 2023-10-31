@@ -1,0 +1,32 @@
+%d-flex{
+    display: flex;
+}
+
+%common-tb-pads{
+    @include interpolate("padding-top", 768px, 100px, 1200px, 170px);
+    @include interpolate("padding-bottom", 768px, 100px, 1200px, 140px);
+}
+
+%pos-abs{
+    position: absolute;
+}
+
+
+%txt-align{
+    text-align: center;
+    @include mobile{
+        text-align: left;
+    }
+}
+
+
+%m-x-auto{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+%font-0{
+    font-size: 0;
+}

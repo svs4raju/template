@@ -1,0 +1,19 @@
+.hero{
+    background-image: url(images/hero-banner.png);
+   background-size: contain;
+   background-position: 90% center;
+   padding:  100px 0;
+    .page-title{
+        @include tablet{
+            max-width: 590px;
+        }
+    }
+    .content-txt{
+        max-width: 550px;
+        margin-top: 20px;
+    }
+    .btn-primary{
+        margin-top: 20px;
+    }
+   
+}
